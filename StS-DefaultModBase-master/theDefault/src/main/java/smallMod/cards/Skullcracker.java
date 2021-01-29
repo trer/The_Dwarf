@@ -21,7 +21,8 @@ public class Skullcracker extends AbstractDynamicCard {
     /*
      * Wiki-page: https://github.com/daviscook477/BaseMod/wiki/Custom-Cards
      *
-     * TOUCH Deal 30(35) damage.
+     * TOUCH Deal 18(23) damage.
+     * Apply 1 (3)
      */
 
 
@@ -43,7 +44,7 @@ public class Skullcracker extends AbstractDynamicCard {
     private static final int COST = 2;
     private static final int AMOUNT = 1;
 
-    private static final int DAMAGE = 30;
+    private static final int DAMAGE = 18;
     private static final int UPGRADE_PLUS_DMG = 5;
     private static final int UPGRADE_PLUS_MAGIC = 2;
 

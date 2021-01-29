@@ -37,7 +37,6 @@ public class DwarvenStomach extends AbstractDynamicCard {
     private static final int UPGRADE_REDUCED_COST = 0;
 
     private static final int AMOUNT = 1;
-    private static final int UPGRADE_PLUS_AMOUNT = 1;
 
     // /STAT DECLARATION/
 
@@ -59,7 +58,6 @@ public class DwarvenStomach extends AbstractDynamicCard {
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
-            upgradeMagicNumber(UPGRADE_PLUS_AMOUNT);
             upgradeBaseCost(UPGRADE_REDUCED_COST);
             initializeDescription();
         }

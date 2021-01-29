@@ -4,7 +4,9 @@ import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.actions.unique.ArmamentsAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import smallMod.DefaultMod;
 import smallMod.characters.TheDefault;
@@ -30,7 +32,8 @@ public class PortableForge extends AbstractDynamicCard {
     public static final String IMG = makeCardPath("Skill.png");
 
     // /TEXT DECLARATION/
-
+    private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
+    public static final String UPGRADE_DESCRIPTION = cardStrings.UPGRADE_DESCRIPTION;
 
     // STAT DECLARATION
 
@@ -65,6 +68,7 @@ public class PortableForge extends AbstractDynamicCard {
         if (!upgraded) {
             upgradeName();
             this.isInnate = true;
+            rawDescription = UPGRADE_DESCRIPTION;
             initializeDescription();
         }
     }

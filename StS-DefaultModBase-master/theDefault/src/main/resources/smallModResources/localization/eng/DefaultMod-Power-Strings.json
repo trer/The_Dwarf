@@ -11,9 +11,17 @@
         "NAME": "Gain energy",
         "DESCRIPTIONS": ["At the start of your turn, gain #b", " energy."]
 },
+"smallMod:LoseThornsPower": {
+        "NAME": "Lose Thorns",
+        "DESCRIPTIONS": ["At the start of your turn, lose #b", " Thorns."]
+},
 "smallMod:ReduceDrawPower": {
         "NAME": "Reduce Draw",
         "DESCRIPTIONS": ["At the start of your turn, draw #b", " fewer cards."]
+},
+"smallMod:SpikedArmorPower": {
+        "NAME": "Spiked Armor",
+        "DESCRIPTIONS": ["Every time you gain block, gain #b", " temporary thorns."]
 },
 "smallMod:UpgradeSecondCard": {
         "NAME": "MasterSmith",

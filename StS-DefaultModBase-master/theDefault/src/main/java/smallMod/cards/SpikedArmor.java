@@ -9,21 +9,22 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.PlatedArmorPower;
 import smallMod.DefaultMod;
 import smallMod.characters.TheDefault;
+import smallMod.powers.SpikedArmorPower;
 
 import static smallMod.DefaultMod.makeCardPath;
 
-public class ArmorUp extends AbstractDynamicCard {
+public class SpikedArmor extends AbstractDynamicCard {
 
     /*
      * Wiki-page: https://github.com/daviscook477/BaseMod/wiki/Custom-Cards
      *
-     * Gain 4 platedArmor (5)
+     * Whenever you gain block, gain 2 (3) temporary block
      */
 
 
-    // TEXT DECLARATION 
+    // TEXT DECLARATION
 
-    public static final String ID = DefaultMod.makeID(ArmorUp.class.getSimpleName());
+    public static final String ID = DefaultMod.makeID(SpikedArmor.class.getSimpleName());
     public static final String IMG = makeCardPath("Power.png");
 
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
@@ -31,20 +32,20 @@ public class ArmorUp extends AbstractDynamicCard {
     // /TEXT DECLARATION/
 
 
-    // STAT DECLARATION 	
+    // STAT DECLARATION
 
-    private static final CardRarity RARITY = CardRarity.COMMON;
+    private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.SELF;
     private static final CardType TYPE = CardType.POWER;
     public static final CardColor COLOR = TheDefault.Enums.COLOR_GRAY;
 
     private static final int COST = 1;
-    private static final int MAGIC = 4;
+    private static final int MAGIC = 2;
     private static final int UPGRADE_MAGIC = 1;
 
 
 
-    public ArmorUp() {
+    public SpikedArmor() {
         super(ID, IMG, COST, TYPE, COLOR, RARITY, TARGET);
         magicNumber = baseMagicNumber = MAGIC;
     }
@@ -54,7 +55,7 @@ public class ArmorUp extends AbstractDynamicCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p,
-                new PlatedArmorPower(p, magicNumber), magicNumber));
+                new SpikedArmorPower(p, p, magicNumber), magicNumber));
         /*
         Hey do you see this "amount" and "stackAmount" up here^ (press ctrl+p inside the parentheses to see parameters)
         THIS DOES NOT MEAN APPLY 1 POWER 1 TIMES. If you put 2 in both numbers it would apply 2. NOT "2 STACKS, 2 TIMES".

@@ -1,11 +1,11 @@
 {
   "smallMod:AdjustableArmor": {
-    "NAME": "Adjustable Armor",
-    "DESCRIPTION": "Gain !B! Block."
+    "NAME": "Adjustable Armor.",
+    "DESCRIPTION": "Gain !B! Block. NL  Can only be upgraded in combat."
   },
   "smallMod:AdjustableClub": {
-    "NAME": "Adjustable Club",
-    "DESCRIPTION": "Deal !D! damage."
+    "NAME": "Adjustable Club.",
+    "DESCRIPTION": "Deal !D! damage. NL Can only be upgraded in combat."
   },
   "smallMod:ArmorUp": {
     "NAME": "Armor up",
@@ -14,7 +14,7 @@
   },
   "smallMod:BarrelStorage": {
     "NAME": "Barrel Storage",
-    "DESCRIPTION": "Put !M! Crack the barrel into your hand."
+    "DESCRIPTION": "Put !M! Crack the Barrel into your deck."
   },
   "smallMod:Block": {
     "NAME": "Block",
@@ -65,7 +65,7 @@
   "smallMod:PortableForge": {
     "NAME": "Portable forge",
     "DESCRIPTION": "Upgrade ALL cards in your hand. NL Retain NL Exhaust NL Add a copy of Portable forge to your hand.",
-    "UPGRADE_DESCRIPTION": "Upgrade ALL cards in your hand. NL Retain NL Exhaust NL Add a copy of Portable forge to your hand. NL Innate"
+    "UPGRADE_DESCRIPTION": "Innate NL Upgrade ALL cards in your hand. NL Retain NL Exhaust NL Add a copy of Portable forge to your hand."
   },
   "smallMod:RepurposeShield": {
     "NAME": "Repurpose Shield",
@@ -83,6 +83,18 @@
   "smallMod:SmithsHammer": {
     "NAME": "Smith's Hammer",
     "DESCRIPTION": "Deal !D! Damage. Upgrade a card in your hand."
+  },
+  "smallMod:SpikedArmor": {
+    "NAME": "Spiked Armor",
+    "DESCRIPTION": "Every time you gain block, Gain !M! Temporary Thorns."
+  },
+  "smallMod:SpikedBoots": {
+    "NAME": "Spiked boots",
+    "DESCRIPTION": "Draw !smallMod:SecondMagic! cards. Gain !M! Temporary Thorns."
+  },
+  "smallMod:SpikeStrike": {
+    "NAME": "Spike Strike",
+    "DESCRIPTION": "Deal !D! damage to all enemies. Deals 2 more damage for every Thorns you have."
   },
   "smallMod:SpringTrap": {
     "NAME": "Spring Trap",
