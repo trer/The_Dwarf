@@ -1,0 +1,131 @@
+{
+  "smallMod:AdjustableArmor": {
+    "NAME": "Adjustable Armor",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "smallMod:AdjustableClub": {
+    "NAME": "Adjustable Club",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "smallMod:ArmorUp": {
+    "NAME": "Armor up",
+    "DESCRIPTION": "Gain !M! Plated Armor.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Plated Armor."
+  },
+  "smallMod:BarrelStorage": {
+    "NAME": "Barrel Storage",
+    "DESCRIPTION": "Put !M! Crack the barrel into your hand."
+  },
+  "smallMod:Block": {
+    "NAME": "Block",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "smallMod:CleansingRock": {
+    "NAME": "Cleansing Rock",
+    "DESCRIPTION": "Remove all debuffs."
+  },
+  "smallMod:CrackTheBarrel": {
+    "NAME": "Crack the barrel",
+    "DESCRIPTION": "Deal !D! damage. Can be upgraded any number of times."
+  },
+  "smallMod:DropExtraWeight": {
+    "NAME": "Drop Extra Weight",
+    "DESCRIPTION": "At the start of your turn, gain !M! energy. Draw !smallMod:SecondMagic! fewer cards each turn."
+  },
+  "smallMod:DwarvenIngenuity": {
+    "NAME": "Dwarven Ingenuity",
+    "DESCRIPTION": "Discard 1 card. Draw !M! cards."
+  },
+  "smallMod:DwarvenStomach": {
+    "NAME": "Dwarven Stomach",
+    "DESCRIPTION": "Gain !M! Artifact."
+  },
+  "smallMod:Feast": {
+    "NAME": "Feast",
+    "DESCRIPTION": "Heal for !M!. Apply !smallMod:SecondMagic! Weak."
+  },
+  "smallMod:Genius": {
+    "NAME": "Genius",
+    "DESCRIPTION": "The next card you play costs 0 and exhausts"
+  },
+  "smallMod:GoldOffering": {
+    "NAME": "Gold offering",
+    "DESCRIPTION": "Take !smallMod:SecondMagic! damage. Draw !M! card.",
+    "UPGRADE_DESCRIPTION": "Take !smallMod:SecondMagic! damage. Draw !M! cards."
+  },
+  "smallMod:HunkerDown": {
+  "NAME": "Hunker down",
+  "DESCRIPTION": "Gain !B! block. Apply !M! Weakened to yourself"
+},
+  "smallMod:MasterSmith": {
+    "NAME": "Master Smith",
+    "DESCRIPTION": "Upgrade every second card you play for the rest of this combat.",
+    "UPGRADE_DESCRIPTION": "Upgrade every card you play for the rest of this combat."
+  },
+  "smallMod:PortableForge": {
+    "NAME": "Portable forge",
+    "DESCRIPTION": "Upgrade ALL cards in your hand. NL Retain NL Exhaust NL Add a copy of Portable forge to your hand.",
+    "UPGRADE_DESCRIPTION": "Upgrade ALL cards in your hand. NL Retain NL Exhaust NL Add a copy of Portable forge to your hand. NL Innate"
+  },
+  "smallMod:RepurposeShield": {
+    "NAME": "Repurpose Shield",
+    "DESCRIPTION": "Deal !D! damage. Apply !M! Vulnerable to yourself"
+  },
+  "smallMod:Skullcracker": {
+    "NAME": "Skullcracker",
+    "DESCRIPTION": "Deal !D! damage. Apply !M! Vulnerable"
+  },
+  "smallMod:SmithsDrift": {
+    "NAME": "Smith's Drift",
+    "DESCRIPTION": "Deal !D! Damage. If you have an upgraded card in your hand, draw a card.",
+    "UPGRADE_DESCRIPTION": "Deal !D! Damage. Draw a card for every upgraded card in your hand."
+  },
+  "smallMod:SmithsHammer": {
+    "NAME": "Smith's Hammer",
+    "DESCRIPTION": "Deal !D! Damage. Upgrade a card in your hand."
+  },
+  "smallMod:SpringTrap": {
+    "NAME": "Spring Trap",
+    "DESCRIPTION": "Gain !B! block. Deal !M! damage to the next enemy that attacks you."
+  },
+  "smallMod:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "smallMod:StrikeTheKnee": {
+    "NAME": "Strike the knee",
+    "DESCRIPTION": "Deal !D! damage. Apply !M! Weak."
+  },
+  "smallMod:StrikeWhileTheIronIsHot": {
+    "NAME": "Strike While The Iron Is Hot",
+    "DESCRIPTION": "Deal !M! damage for every upgraded card in your deck. NL !D! damage"
+  },
+  "smallMod:SurroundedByGold": {
+    "NAME": "Surrounded By Gold",
+    "DESCRIPTION": "Gain 1 block for every 10 gold you have. !B! block."
+  },
+  "smallMod:TheBarrel": {
+    "NAME": "The Barrel",
+    "DESCRIPTION": "Gain !B! block. Shuffle a Crack the barrel into your deck."
+  },
+  "smallMod:TwoHandedAxe": {
+    "NAME": "Two Handed Axe",
+    "DESCRIPTION": "Deal !D! damage to an enemy. If you are Vulnerable, deal !D! additional Damage."
+  },
+  "smallMod:TwoHandedShield": {
+    "NAME": "Two Handed Shield",
+    "DESCRIPTION": "Gain !B! block. If you are Weak, gain !B! additional block."
+  },
+  "smallMod:DefaultAttackWithVariable": {
+    "NAME": "Special Strike",
+    "DESCRIPTION": "Deal !D! damage [E] times. NL (Deal !smallMod:ENERGY_DAMAGE! damage total.)"
+  },
+  "smallMod:DefaultSecondMagicNumberSkill": {
+    "NAME": "Cool 2 Number Card",
+    "DESCRIPTION": "Apply !M! Vulnerable and !smallMod:SecondMagic! poison to an enemy. NL [#0000ff]This[] [#ff0000]Is[] [#ffff00]How[] [#88888]color[] [#ff00ff]works.[]\""
+  },
+  "smallMod:OrbSkill": {
+    "NAME": "Get Orb",
+    "DESCRIPTION": "Channel 1 Default Orb."
+  }
+}

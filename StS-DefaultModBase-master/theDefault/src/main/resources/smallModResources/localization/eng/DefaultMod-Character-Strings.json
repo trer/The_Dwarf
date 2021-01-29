@@ -1,0 +1,13 @@
+{
+  "smallMod:DefaultCharacter": {
+    "NAMES": [
+      "The Dwarf",
+      "the Dwarf"
+    ],
+    "TEXT": [
+      "Deep under ground lies the Karat Mines.  NL As the power of the spire grows not even the Karat Mines are safe from its corruption anymore.",
+      "NL You ready your axe and strike the Heart with all your might.",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~small~ ~one,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  }
+}

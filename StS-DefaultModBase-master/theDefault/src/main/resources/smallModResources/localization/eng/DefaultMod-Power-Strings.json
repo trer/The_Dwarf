@@ -1,0 +1,26 @@
+{
+"smallMod:CommonPower": {
+        "NAME": "Placeholder Power",
+        "DESCRIPTIONS": ["You applied #b", " keyword.", " keywords."]
+},
+"smallMod:FreeCardPower": {
+        "NAME": "Free Card",
+        "DESCRIPTIONS": ["The next #b", " cards you play are free and exhausts"]
+},
+"smallMod:GainEnergyPower": {
+        "NAME": "Gain energy",
+        "DESCRIPTIONS": ["At the start of your turn, gain #b", " energy."]
+},
+"smallMod:ReduceDrawPower": {
+        "NAME": "Reduce Draw",
+        "DESCRIPTIONS": ["At the start of your turn, draw #b", " fewer cards."]
+},
+"smallMod:UpgradeSecondCard": {
+        "NAME": "MasterSmith",
+        "DESCRIPTIONS": ["Upgrade every #b", " second", " card you play."]
+},
+"smallMod:SpringTrapPower": {
+        "NAME": "Spring Trap",
+        "DESCRIPTIONS": ["Deal #b", "damage to the next enemy that attacks you."]
+}
+}
