@@ -48,6 +48,10 @@
     "NAME": "Genius",
     "DESCRIPTION": "The next card you play costs 0 and exhausts"
   },
+  "smallMod:HotPotato": {
+    "NAME": "Hot Potato",
+    "DESCRIPTION": "Deal !D! damage. NL If this is in your hand at the end of your turn, take !M! damage."
+  },
   "smallMod:GoldOffering": {
     "NAME": "Gold offering",
     "DESCRIPTION": "Take !smallMod:SecondMagic! damage. Draw !M! card.",

@@ -42,7 +42,7 @@ public class SpikeStrike extends AbstractDynamicCard {
     private static final int COST = 2;
     private static final double MODIFIER = 2;
 
-    private static final int DAMAGE = 10;
+    private static final int DAMAGE = 7;
     private static final int UPGRADE_DAMAGE = 4;
 
 
