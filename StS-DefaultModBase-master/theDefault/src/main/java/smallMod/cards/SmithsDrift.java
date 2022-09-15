@@ -83,7 +83,7 @@ public class SmithsDrift extends AbstractDynamicCard {
     }
 
     private boolean shouldDraw() {
-        return (int) AbstractDungeon.player.hand.group.stream().filter(card -> card.upgraded && card != this).count() > 0;
+        return ((int) AbstractDungeon.player.hand.group.stream().filter(card -> card.upgraded && card != this).count() > 0||upgraded);
     }
 
     //Upgraded stats.

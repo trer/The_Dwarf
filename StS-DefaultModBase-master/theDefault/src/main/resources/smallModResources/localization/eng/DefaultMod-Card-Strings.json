@@ -54,7 +54,7 @@
   },
   "smallMod:GoldOffering": {
     "NAME": "Gold offering",
-    "DESCRIPTION": "Take !smallMod:SecondMagic! damage. Draw !M! card.",
+    "DESCRIPTION": "Take !smallMod:SecondMagic! damage. Draw !M! cards.",
     "UPGRADE_DESCRIPTION": "Take !smallMod:SecondMagic! damage. Draw !M! cards."
   },
   "smallMod:HunkerDown": {
